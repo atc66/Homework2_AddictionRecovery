@@ -2,9 +2,27 @@
 body {
 	margin-bottom: 70px;
 }
+
+div.banner {
+	width: cover;
+	height: 683px;
+	background: url("img/benfrank.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-position: auto; 
+}
+
+.title {
+	font-size: 48px;
+	line-height: 650px;
+	color: white;
+}
+.title:hover {
+	color: white;
+}
+
 h1{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .photo {
     height: 400px;
@@ -145,6 +163,10 @@ footer div {
 }
 
 @media all and (max-width: 480px){
+
+	.title {
+		font-size: 32px;
+	}
 	.wrapper {
 		width: 100%; 
 	}
@@ -178,6 +200,11 @@ footer div {
 
 
 @media all and (min-width: 481px) and (max-width: 991px) {
+	
+	.title {
+		font-size: 26px;
+	}
+
 	body {
 		margin-bottom: 100px;
 	}
