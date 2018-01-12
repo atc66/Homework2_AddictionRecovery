@@ -101,6 +101,10 @@ footer div {
 }
 
 @media all and (max-width: 480px){
+.title {
+		font-size: 26px;
+	}
+
  body{
  	margin-bottom: 100px;
  }
@@ -138,6 +142,9 @@ footer div {
 
 @media all and (min-width: 481px) and (max-width: 991px) {
 
+	.title {
+		font-size: 32px;
+	}
 	.wrapper {
 		width: 100%; 
 	}
