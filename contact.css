@@ -7,8 +7,20 @@ h1{
     text-decoration: underline;
 }
 .photo {
-    height: 200px;
-    width: 500px;
+    height: 400px;
+    width: 100%;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid black;*/
+
+}
+.contact-text{
+    text-align: center;
+    font-size: 12pt;
+    margin: 5px auto;
+    
+
 }
 
 input[type=text], select {
@@ -35,11 +47,22 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+#button-color{
+    background-color: skyblue;
+    width: 98%;
+    
+
+
+}
 
 .entry-form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    width: 100%;
+    text-align: 
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .wrapper {
 	width: 100%;
@@ -75,7 +98,15 @@ a {
 .block:last-child {
     border-right: none;
 }
-
+#fname{
+    width: 98%;
+}
+#lname{
+    width: 98%;
+}
+#ename{
+    width: 98%;
+}
 
 a:hover, a:link {
 	color: grey;
