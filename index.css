@@ -2,6 +2,32 @@
 body {
 	margin-bottom: 70px;
 }
+
+
+div.banner {
+	width: cover;
+	height: 683px;
+	background: url("img/benfrank.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-position: auto; 
+}
+
+
+
+.title {
+	font-size: 48px;
+	line-height: 650px;
+	color: white;
+}
+.title:hover {
+	color: white;
+}
+
+
+#wrapper-body {
+	width: 80%;
+	margin: 0 auto;
+}
 .wrapper {
 	width: 100%;
     list-style-type: none;
