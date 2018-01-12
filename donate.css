@@ -47,10 +47,25 @@ a:hover, a:link {
 	margin: 0 auto;
 }
 
+
+
 .button {
-	color: black;
+    text-align: center;
 }
 
+
+#button {
+	display: inline;
+	width: 124px;
+	height: 44px;
+	font-size: 22px;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	border-radius:4px;
+}
 
 /* ----------------------------FOOTER--------------*/
 footer {
