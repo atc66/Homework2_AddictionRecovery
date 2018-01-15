@@ -11,6 +11,11 @@ div.banner {
 	background-position: auto; 
 }
 
+.banner a {
+	display: block;
+	padding: 14px 16px;
+}
+
 .title {
 	font-size: 48px;
 	line-height: 650px;
@@ -25,19 +30,15 @@ h1{
     text-decoration: none;
 }
 .photo {
-    height: 400px;
-    width: 100%;
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid black;*/
+    width: 40%;
+    display: block;
+	margin: 0 auto;
+    border-style: solid black;
 
 }
 .contact-text{
-    text-align: center;
-    font-size: 12pt;
-    margin: 5px auto;
-    
+    margin: 20px auto;
+    width: 80%;
 
 }
 
@@ -95,18 +96,12 @@ input[type=submit]:hover {
 	float: left;
 }
 
-a {
-	display: block;
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center; 
-	padding: 14px 16px;
-	text-decoration: none;
-}
 
 .block a {
 	display: block;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none; 
 }
@@ -155,6 +150,8 @@ footer div {
 
 .phone-btn a{
 	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 14px 16px;
 	line-height: 5px;
 	display: block;
 	color: white;
@@ -163,6 +160,10 @@ footer div {
 @media all and (max-width: 480px){
 	body {
 		margin-bottom: 100px;
+	}
+
+	.photo {
+		width: 70%;
 	}
 
 	.title {
@@ -208,6 +209,10 @@ footer div {
 
 	body {
 		margin-bottom: 100px;
+	}
+
+	.photo {
+		width: 60%;
 	}
 
 	.wrapper {
