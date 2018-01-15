@@ -116,7 +116,6 @@ a:hover, a:link {
 
 #active {
 	background-color: red;
-	width: 33.819%;
 }
 
 #fname{
@@ -186,7 +185,7 @@ footer div {
 	.block {
 		float: none;
 		width: 100%;
-		border-bottom: 2px solid grey
+		/*border-bottom: 2px solid grey*/
 	}
 
 	.block:last-child {
@@ -209,10 +208,6 @@ footer div {
   footer div {
 	  margin-bottom: 20px;
     }
-
-    #active {
-    	width: 100%;
-    }
 }
 
 @media all and (min-width: 481px) and (max-width: 991px) {
@@ -234,8 +229,8 @@ footer div {
 
 	.block {
 		float: left;
-		width: 33%;
-		border-right: 1px solid grey;
+		width: 33.3%;
+		/*border-right: 1px solid grey;*/
 	}
 
 	.block:last-child {
@@ -254,8 +249,8 @@ footer div {
 
 	.block {
 		float: left;
-		width: 33%;
-		border-right: 1px solid grey;
+		width: 33.3%;
+		/*border-right: 1px solid grey;*/
 	}
 
 	.block:last-child {
