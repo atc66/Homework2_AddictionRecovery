@@ -209,6 +209,10 @@ footer div {
   footer div {
 	  margin-bottom: 20px;
     }
+
+    #active {
+    	width: 100%;
+    }
 }
 
 @media all and (min-width: 481px) and (max-width: 991px) {
