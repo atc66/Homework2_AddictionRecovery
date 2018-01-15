@@ -57,10 +57,6 @@ a {
     text-decoration: none; 
 }
 
-.block:last-child {
-    border-right: none;
-}
-
 a:hover, a:link {
 	color: grey;
 	text-decoration: none;
@@ -119,11 +115,6 @@ footer div {
 	.block{
 		float: none;
 		width: 100%;
-		border-bottom: 2px solid grey
-	}
-
-	.block:last-child {
-		border-bottom: none;
 	}
 
 	.benfrank {
@@ -157,12 +148,7 @@ footer div {
 
 	.block{
 		float: left;
-		width: 33%;
-		border-right: 1px solid grey;
-	}
-
-	.block:last-child {
-		border-right: none;
+		width: 33.33%;
 	}
 
 	.benfrank {
@@ -177,12 +163,7 @@ footer div {
 
 	.block {
 		float: left;
-		width: 33%;
-		border-right: 1px solid grey;
-	}
-
-	.block:last-child {
-		border-right: none;
+		width: 33.33%;
 	}
 
 	.benfrank {
