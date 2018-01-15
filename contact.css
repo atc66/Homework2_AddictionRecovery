@@ -12,6 +12,7 @@ div.banner {
 }
 
 .banner a {
+	font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	padding: 14px 16px;
 }
