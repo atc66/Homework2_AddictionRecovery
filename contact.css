@@ -105,10 +105,6 @@ input[type=submit]:hover {
     text-decoration: none; 
 }
 
-.block:last-child {
-    border-right: none;
-}
-
 a:hover, a:link {
 	color: grey;
 	text-decoration: none;
@@ -185,11 +181,6 @@ footer div {
 	.block {
 		float: none;
 		width: 100%;
-		/*border-bottom: 2px solid grey*/
-	}
-
-	.block:last-child {
-		border-bottom: none;
 	}
 
 	.benfranksmall {
@@ -229,12 +220,6 @@ footer div {
 
 	.block {
 		float: left;
-		width: 33.3%;
-		/*border-right: 1px solid grey;*/
-	}
-
-	.block:last-child {
-		border-right: none;
 	}
 
 	.benfranksmall {
@@ -249,12 +234,6 @@ footer div {
 
 	.block {
 		float: left;
-		width: 33.3%;
-		/*border-right: 1px solid grey;*/
-	}
-
-	.block:last-child {
-		border-right: none;
 	}
 
 	.benfranksmall {
