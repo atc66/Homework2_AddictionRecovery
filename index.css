@@ -57,14 +57,20 @@ a {
     border: 1px solid grey;
     text-decoration: none; 
 }
+.block a:hover {
+	color: red;
+}
 
 a:hover, a:link {
-	color: grey;
 	text-decoration: none;
 }
 
 #active {
 	background-color: red;
+}
+
+#active a {
+	color: white;
 }
 
 /* ----------------------Footer-------------------*/
