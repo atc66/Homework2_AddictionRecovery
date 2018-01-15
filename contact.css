@@ -109,6 +109,16 @@ input[type=submit]:hover {
     border-right: none;
 }
 
+a:hover, a:link {
+	color: grey;
+	text-decoration: none;
+}
+
+#active {
+	background-color: red;
+	width: 33.819%;
+}
+
 #fname{
     width: 98%;
 }
@@ -119,15 +129,6 @@ input[type=submit]:hover {
 
 #ename{
     width: 98%;
-}
-
-a:hover, a:link {
-	color: grey;
-	text-decoration: none;
-}
-
-#active {
-	background-color: red;
 }
 
 /*--------------------------- FOOTER CSS-----------------------------*/
