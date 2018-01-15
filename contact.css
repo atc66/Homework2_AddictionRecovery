@@ -126,6 +126,10 @@ a:hover, a:link {
 	text-decoration: none;
 }
 
+#active {
+	background-color: red;
+}
+
 /*--------------------------- FOOTER CSS-----------------------------*/
 
 footer {
