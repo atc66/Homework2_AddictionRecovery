@@ -3,7 +3,6 @@ body {
 	margin-bottom: 70px;
 }
 
-
 div.banner {
 	width: cover;
 	height: 683px;
@@ -17,15 +16,16 @@ div.banner {
 	line-height: 650px;
 	color: white;
 }
+
 .title:hover {
 	color: white;
 }
-
 
 #wrapper-body {
 	width: 80%;
 	margin: 0 auto;
 }
+
 .wrapper {
 	width: 100%;
     list-style-type: none;
@@ -61,11 +61,11 @@ a {
     border-right: none;
 }
 
-
 a:hover, a:link {
 	color: grey;
 	text-decoration: none;
 }
+
 /* ----------------------Footer-------------------*/
 
 footer {
@@ -77,11 +77,13 @@ footer {
 	text-align: center;
 	box-shadow: 0 0 10px black; 
 }
+
 footer p {
 	display: inline-block;
 	color: white;
 	margin-right: 10px;
 }
+
 footer div {
 	margin: 10px;
 	background-color: blue;
@@ -99,13 +101,13 @@ footer div {
 }
 
 @media all and (max-width: 480px){
-.title {
+	.title {
 		font-size: 26px;
-	}
+		}
 
- body{
- 	margin-bottom: 100px;
- }
+ 	body{
+ 		margin-bottom: 100px;
+ 	}
 	.wrapper {
 		width: 100%; 
 	}
@@ -123,18 +125,19 @@ footer div {
 	.benfrank {
 		display: none;
 	}
+
 	footer {
 		height: 80px;
 	}
   
   footer p {
-	display: block;
-	margin: 10px 0 0;
+		display: block;
+		margin: 10px 0 0;
 	}
 
-footer div {
-	margin-bottom: 20px;
-  }
+	footer div {
+		margin-bottom: 20px;
+  	}
 }
 
 
@@ -143,6 +146,7 @@ footer div {
 	.title {
 		font-size: 32px;
 	}
+
 	.wrapper {
 		width: 100%; 
 	}
@@ -181,3 +185,4 @@ footer div {
 		width: 100%;
 		max-height: 25%;
 	}
+}
