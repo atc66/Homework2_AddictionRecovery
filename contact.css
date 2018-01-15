@@ -200,12 +200,12 @@ footer div {
 		height: 80px;
 	}
 
-  footer p {
+  	footer p {
 	  display: block;
 	  margin: 10px 0 0;
 	  }
 
-  footer div {
+  	footer div {
 	  margin-bottom: 20px;
     }
 }
