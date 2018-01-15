@@ -102,6 +102,7 @@ input[type=submit]:hover {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 14px 16px;
+    border: 1px solid grey;
     text-decoration: none; 
 }
 
