@@ -15,9 +15,11 @@ div.banner {
 	line-height: 650px;
 	color: white;
 }
+
 .title:hover {
 	color: white;
 }
+
 .wrapper {
 	width: 100%;
     list-style-type: none;
@@ -53,7 +55,6 @@ a {
     border-right: none;
 }
 
-
 a:hover, a:link {
 	color: grey;
 	text-decoration: none;
@@ -64,12 +65,9 @@ a:hover, a:link {
 	margin: 0 auto;
 }
 
-
-
 .button {
     text-align: center;
 }
-
 
 #button {
 	display: inline;
@@ -85,6 +83,7 @@ a:hover, a:link {
 }
 
 /* ----------------------------FOOTER--------------*/
+
 footer {
 	position: fixed;
 	bottom:0;
@@ -94,11 +93,13 @@ footer {
 	text-align: center;
 	box-shadow: 0 0 10px black; 
 }
+
 footer p {
 	display: inline-block;
 	color: white;
 	margin-right: 10px;
 }
+
 footer div {
 	margin: 10px;
 	background-color: blue;
@@ -115,7 +116,7 @@ footer div {
 	color: white;
 }
 
-@media all and (max-width: 480px){
+@media all and (max-width: 480px) {
 	body {
 		margin-bottom: 100px;
 	}
@@ -128,7 +129,7 @@ footer div {
 		width: 100%; 
 	}
 
-	.block{
+	.block {
 		float: none;
 		width: 100%;
 		border-bottom: 2px solid grey
@@ -146,15 +147,14 @@ footer div {
 		height: 80px;
 	}
   
-  footer p {
-	display: block;
-	margin: 10px 0 0;
+  	footer p {
+		display: block;
+		margin: 10px 0 0;
 	}
 
-footer div {
-	margin-bottom: 20px;
-}
-
+	footer div {
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -182,7 +182,7 @@ footer div {
 	}
 }
 
-@media all and (min-width: 992px){
+@media all and (min-width: 992px) {
 	.wrapper {
 		width: 100%; 
 	}
@@ -200,3 +200,4 @@ footer div {
 	.benfranksmall {
 		width: 100%;
 	}
+}	
